@@ -37,7 +37,7 @@ useServerSeoMeta({
 
 <template>
   <div>
-    <NuxtLoadingIndicator />
+    <!-- <NuxtLoadingIndicator /> -->
 
     <NuxtLayout>
       <NuxtPage />
