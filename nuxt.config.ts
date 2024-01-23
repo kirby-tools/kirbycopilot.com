@@ -15,15 +15,15 @@ export default defineNuxtConfig({
     url: "https://kirbycopilot.com",
   },
 
-  content: {
-    highlight: {
-      theme: {
-        light: "github-light",
-        default: "github-light",
-        dark: "github-dark",
-      },
-    },
-  },
+  // content: {
+  //   highlight: {
+  //     theme: {
+  //       light: "github-light",
+  //       default: "github-light",
+  //       dark: "github-dark",
+  //     },
+  //   },
+  // },
 
   image: {
     quality: 80,

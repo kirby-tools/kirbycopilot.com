@@ -14,7 +14,7 @@ plan:
   button:
     label: Purchase Now
     color: primary
-    to: https://byjohann.lemonsqueezy.com/checkout/buy/402d43aa-0e13-4eb1-a3da-676a48987cbb
+    to: https://byjohann.lemonsqueezy.com/checkout/buy/ce8a5fd2-8a01-4972-9a5d-e9dbbca17acf
   features:
     - Access all features
     - Unlimited projects
