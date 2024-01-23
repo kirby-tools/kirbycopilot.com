@@ -63,25 +63,25 @@ useEventListener(player, "ended", () => {
         <UBadge
           v-if="page.hero.headline"
           variant="subtle"
-          size="lg"
-          class="relative rounded-full font-semibold"
+          size="md"
+          class="hover:bg-primary-100 dark:bg-primary-950/100 dark:hover:bg-primary-900 transition-color relative rounded-full font-medium shadow-none"
         >
           <NuxtLink
             :to="page.hero.headline.to"
-            target="_blank"
             class="focus:outline-none"
             tabindex="-1"
           >
             <span class="absolute inset-0" aria-hidden="true" />
           </NuxtLink>
 
-          {{ page.hero.headline.label }}
-
-          <UIcon
-            v-if="page.hero.headline.icon"
-            :name="page.hero.headline.icon"
-            class="pointer-events-none ml-1 h-4 w-4"
-          />
+          <span class="flex items-center gap-1">
+            <UIcon
+              v-if="page.hero.headline.icon"
+              :name="page.hero.headline.icon"
+              class="pointer-events-none h-4 w-4"
+            />
+            {{ page.hero.headline.label }}
+          </span>
         </UBadge>
       </template>
 
@@ -179,7 +179,7 @@ useEventListener(player, "ended", () => {
               autocomplete="off"
               icon="i-ri-code-fill"
               input-class="select-none"
-              aria-label="Use Kirby Copilot blueprint"
+              aria-label="Copilot blueprint section"
               size="lg"
               :ui="{
                 base: 'disabled:cursor-default',
@@ -221,7 +221,6 @@ useEventListener(player, "ended", () => {
             color="gray"
             target="_blank"
             variant="link"
-            size="xl"
             :ui="{
               rounded: 'rounded-full',
             }"

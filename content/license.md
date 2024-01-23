@@ -1,5 +1,6 @@
 ---
 title: Kirby Copilot Plugin License Agreement
+navigation.icon: i-ri-shake-hands-line
 ---
 
 Published: 2024-01-22

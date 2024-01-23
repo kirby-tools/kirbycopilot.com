@@ -1,5 +1,6 @@
 ---
 title: Legal Notice
+navigation.icon: i-ri-information-line
 ---
 
 ## Service Provider

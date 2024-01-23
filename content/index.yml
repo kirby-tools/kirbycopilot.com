@@ -2,6 +2,10 @@ title: Kirby Copilot – AI-Powered Content Generation for Kirby CMS
 description:
 navigation: false
 hero:
+  headline:
+    label: Launch with 20% off
+    to: /buy
+    icon: i-ri-emotion-happy-line
   title: '<span class="text-primary">AI-Powered</span><br class="hidden lg:block"> Content Generation'
   description: Kirby Copilot is your everyday AI companion for the Kirby Panel.<br class="hidden lg:block"> It helps you to create content faster and more efficiently.
   links:
@@ -64,7 +68,7 @@ sections:
         color: white
         size: lg
         trailingIcon: i-ri-arrow-right-line
-  - title: Plugins You May<br class="hidden lg:block"> <span class="text-primary">Already Use</span>
+  - title: You May Us From<br class="hidden lg:block"> <span class="text-primary">These Plugins</span>
     slot: projects
     projects:
       - title: Kirby Content Translator

@@ -1,5 +1,6 @@
 ---
 title: Privacy Policy
+navigation.icon: i-ri-file-shield-2-line
 ---
 
 ## Preamble

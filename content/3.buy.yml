@@ -5,10 +5,13 @@ hero:
   title: Buy Once, Use Forever
   description: Enhance your Kirby projects with AI content generation at a fair, one-time price.
   align: center
+coupon:
+  label: 20% discount with EARLYBIRD
+  code: EARLYBIRD
 plan:
   title: All in One
   description: For individuals and teams.
-  price: 79 €
+  price: 89 €
   highlight: true
   align: top
   button:
