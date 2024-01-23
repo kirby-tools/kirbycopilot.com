@@ -9,7 +9,6 @@
     "build": "nuxi build",
     "generate": "nuxi generate",
     "preview": "nuxi preview",
-    "deploy:pages": "NITRO_PRESET=cloudflare-pages nuxi build && npx wrangler pages deploy dist",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "format": "prettier \"**/*.{css,html,json,md,mjs,ts,vue,yml}\" --write",

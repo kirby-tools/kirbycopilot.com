@@ -63,7 +63,7 @@ export default defineNuxtConfig({
 
   nitro: {
     prerender: {
-      routes: ["/", "/docs/getting-started"],
+      routes: ["/", "/docs/getting-started/installation"],
     },
   },
 });
