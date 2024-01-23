@@ -1,0 +1,43 @@
+title: Buy
+description: Kirby Copilot is a one-time purchase. No subscriptions, no recurring fees.
+navigation.icon: i-ri-bank-card-2-line
+hero:
+  title: Buy Once, Use Forever
+  description: Enhance your Kirby projects with AI content generation at a fair, one-time price.
+  align: center
+plan:
+  title: All in One
+  description: For individuals and teams.
+  price: 79 €
+  highlight: true
+  align: top
+  button:
+    label: Purchase Now
+    color: primary
+    to: https://byjohann.lemonsqueezy.com/checkout/buy/402d43aa-0e13-4eb1-a3da-676a48987cbb
+  features:
+    - Access all features
+    - Unlimited projects
+    - Unlimited minor & patch updates
+    - Lifetime access
+faq:
+  title: Frequently Asked Questions
+  description: If you can't find what you're looking for, email our team and we'll get back to you.
+  items:
+    - label: What do I get with my purchase?
+      content: After your purchase, you will receive an email with a download link to a ZIP file containing the plugin. Install the plugin into your Kirby project, configure your AI model provider and you're ready to go.
+      defaultOpen: true
+    - label: Do I need an OpenAI API key?
+      content: If you want to use GPT models then yes, you need a key for the [OpenAI API](https://platform.openai.com) to allow Kirby Copilot to make requests to it. If you want to use Mistral models instead, you will need an API key for [Mistral](https://mistral.ai).
+    - label: Which Kirby versions are supported?
+      content: Kirby Copilot is only compatible with Kirby 4.
+    - label: What does “Unlimited minor & patch updates” include?
+      content: We add new features and improvements to Kirby Copilot as we get ideas and feedback. You will receive these updates for the major version you have purchased. When a new major version is released, you will be able to upgrade to that version at a generous discount. A typical major version is intended to be released alongside a new major Kirby version.
+    - label: How do I receive updates for the plugin?
+      content: You will be notified by email when a new version of the plugin is available. You can then download the latest version from your [order page](https://app.lemonsqueezy.com/my-orders) of our payment provider.
+    - label: Do you offer technical support?
+      content: You can ask questions, report bugs or feature requests on our [GitHub repository](https://github.com/johannschopplich/kirby-copilot). If you need personal support or advice, please [contact us](/contact).
+    - label: Can I use this plugin on multiple sites?
+      content: The license allows you to use the plugin on as many sites as you want, as long as you are the owner of all the sites.
+    - label: What is your refund policy?
+      content: "Because the products we offer are digital and non-returnable, your purchase is eligible for a refund only in the following situation: There is a technical problem that we can't fix within 14 days of being notified of the problem. You must provide sufficient information about how the problem occurred. If you have any questions, please [contact us](/contact)."

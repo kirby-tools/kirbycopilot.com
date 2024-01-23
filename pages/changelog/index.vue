@@ -1,0 +1,63 @@
+<script setup lang="ts">
+import { formatTimeAgo } from "@vueuse/core";
+
+const { data: page } = await useAsyncData("changelog", () =>
+  queryContent("/changelog").findOne(),
+);
+
+if (!page.value) {
+  throw createError({
+    statusCode: 404,
+    statusMessage: "Page not found",
+    fatal: true,
+  });
+}
+
+const { data: versions } = await useAsyncData("versions", () =>
+  queryContent("/changelog")
+    .where({ _extension: "md" })
+    .sort({ date: -1 })
+    .find(),
+);
+
+useSeoMeta({
+  titleTemplate: "%s – Kirby Copilot",
+  title: page.value.title,
+  ogTitle: `${page.value.title} – Kirby Copilot`,
+  description: page.value.description,
+  ogDescription: page.value.description,
+});
+
+defineOgImageComponent("Default", {
+  title: page.value.title,
+  description: page.value.description,
+});
+</script>
+
+<template>
+  <UContainer>
+    <UPageHeader v-bind="page" />
+
+    <div
+      v-for="version in versions"
+      :key="version.title"
+      class="relative grid border-b border-gray-200 py-[50px] md:grid-cols-3 dark:border-gray-800"
+    >
+      <div>
+        <h2 class="text-xl font-semibold">
+          {{ version.title }}
+        </h2>
+        <p class="mt-2 text-gray-500 dark:text-gray-400">
+          {{ formatTimeAgo(new Date(version.date)) }}
+        </p>
+      </div>
+      <div
+        class="prose prose-primary dark:prose-invert max-w-none md:col-span-2"
+      >
+        <ContentRenderer :value="version" />
+      </div>
+    </div>
+
+    <UPageBody />
+  </UContainer>
+</template>

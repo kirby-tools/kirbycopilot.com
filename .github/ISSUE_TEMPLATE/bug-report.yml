@@ -1,0 +1,49 @@
+name: 🐞 Bug report
+description: Write a report to help us improve Kirby Copilot
+labels: [pending triage]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        To help us understand your issue, please fill out the following template. If you are reporting a bug, please make sure you are running the latest version of Kirby Copilot before submitting an issue. Thank you very much!
+
+        Make sure you **never** post sensitive information such as API keys.
+  - type: textarea
+    id: bug-env
+    attributes:
+      label: Environment
+      description: |
+        Please provide the following information:
+        - Kirby & Kirby Copilot version
+        - Browser environment (name, version, operating system)
+        - Global and section configuration (without any sensitive information)
+        - Steps to reproduce the bug (if no reproduction is provided)
+      placeholder: Environment
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Reproduction
+      description: It would be great if you could provide a link to a repo that can reproduce the problem you encountered.
+      placeholder: Reproduction
+  - type: textarea
+    id: bug-description
+    attributes:
+      label: Describe the bug
+      description: A clear and concise description of what the bug is.
+      placeholder: Bug description
+    validations:
+      required: true
+  - type: textarea
+    id: additonal
+    attributes:
+      label: Additional context
+      description: If applicable, add any other context about the problem here.
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs
+      description: |
+        For example, your browser's console output, stack trace, etc. Please try not to insert an image, but copy and paste the log text.
+      render: shell-script

@@ -1,0 +1,26 @@
+name: 🚀 Feature request
+description: Suggest a feature that will improve Kirby Copilot
+labels: [pending triage]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for taking the time to fill out this feature request!
+
+        Please check that there is not an existing issue that covers the scope of the feature you have in mind.
+  - type: textarea
+    id: feature-description
+    attributes:
+      label: Describe the feature
+      description: A clear and concise description of what you think would be a helpful addition to Kirby Copilot, including the possible use cases and alternatives you have considered.
+      placeholder: Feature description
+    validations:
+      required: true
+  - type: checkboxes
+    id: required-info
+    attributes:
+      label: Final checks
+      description: "Before submitting, please make sure you have checked the following:"
+      options:
+        - label: Check existing [issues](https://github.com/johannschopplich/kirby-copilot/issues).
+          required: true
