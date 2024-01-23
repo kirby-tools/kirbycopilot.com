@@ -12,7 +12,6 @@ if (!page.value) {
 }
 
 useSeoMeta({
-  titleTemplate: "%s – Kirby Copilot",
   title: page.value.title,
   ogTitle: `${page.value.title} – Kirby Copilot`,
   description: page.value.description,

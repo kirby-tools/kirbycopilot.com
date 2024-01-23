@@ -25,7 +25,7 @@ jobs:
       - name: Build
         run: pnpm run build
         env:
-          NITRO_PRESET: cloudflare_module
+          NITRO_PRESET: cloudflare
           NUXT_UI_PRO_LICENSE: ${{ secrets.NUXT_UI_PRO_LICENSE }}
 
       - name: Deploy to Cloudflare

@@ -15,12 +15,8 @@ const links = [
     ],
   },
   {
-    label: "Product",
+    label: "Resources",
     children: [
-      {
-        label: "Contact",
-        to: "/contact",
-      },
       {
         label: "License",
         to: "/license",
@@ -32,6 +28,23 @@ const links = [
       {
         label: "Legal Notice",
         to: "/legal-notice",
+      },
+    ],
+  },
+  {
+    label: "Support",
+    children: [
+      {
+        label: "Contact",
+        to: "/contact",
+      },
+      {
+        label: "GitHub Discussions",
+        to: "https://github.com/johannschopplich/kirby-copilot/discussions",
+      },
+      {
+        label: "GitHub Issues",
+        to: "https://github.com/johannschopplich/kirby-copilot/issues",
       },
     ],
   },

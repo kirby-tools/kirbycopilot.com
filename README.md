@@ -1,4 +1,4 @@
-[![Kirby Copilot Preview](./github/kirby-copilot-preview.png)](https://kirbycopilot.com)
+[![Kirby Copilot Preview](./.github/kirby-copilot-preview.png)](https://kirbycopilot.com)
 
 # Kirby Copilot
 
@@ -8,14 +8,14 @@ Kirby Copilot is a plugin for [Kirby CMS](https://getkirby.com) that integrates 
 
 To streamline content creation for you or your clients and editors, Kirby Copilot offers:
 
-- **AI-powered content generation**: Use OpenAI GPT models or Mistral's AI models to generate content.
+- **Multi-model**: Use OpenAI GPT models or Mistral AI models to generate content.
 - **Blocks support**: Generate content for blocks fields.
-- **Customizable prompts**: Tailor AI responses with user-defined prompts.
+- **Customizable prompts**: Tailor AI responses with user and system instructions.
 - **Context-aware responses**: Include context from other fields with placeholders in user prompts to improve content relevance.
 - **Playground**: Try out the plugin's features with an interactive live demo.
 
-> [!NOTE]
-> At the moment, [OpenAI models](https://platform.openai.com/docs/models) such as GPT-4 and [Mistral models](https://mistral.ai/product/) are supported. We will add support for other AI providers if there is enough demand.
+> [!TIP]
+> Kirby Copilot is multi-modal and supports [OpenAI models](https://platform.openai.com/docs/models) such as GPT-4 and [Mistral models](https://mistral.ai/product/). We will add support for other AI providers if there is enough demand.
 
 ## Playground
 
@@ -41,12 +41,13 @@ We are committed to support you if you have any questions or issues with Kirby C
 
 - **GitHub Discussions**: Join the community and engage in discussions on our [GitHub Discussions page](https://github.com/johannschopplich/kirby-copilot/discussions).
 - **Email Support**: You can ask questions and seek assistance by emailing us at [hello@kirbycopilot.com](mailto:hello@kirbycopilot.com). Please use the GitHub discussions if you have a general question or comment about Kirby Copilot.
-- **GitHub Issues**: For reporting bugs or issues, please use the [GitHub Issues page](https://github.com/johannschopplich/kirby-copilot/issues).
+- **GitHub Issues**: For reporting bugs or requesting new features, please use the [GitHub Issues page](https://github.com/johannschopplich/kirby-copilot/issues).
 
 We encourage you to use the resources above to connect with us and other users of Kirby Copilot.
 
-Please ensure to **never** include any API keys or other sensitive information in your bug reports.
+> [!WARNING]
+> Please ensure to **never** include any API keys or other sensitive information in bug reports, feature requests, or any other public communication channel.
 
-## Feedback & Feature Requests
+## Feedback
 
 We value your feedback and ideas for improving Kirby Copilot. If you have any suggestions, please feel free to reach out to us via email or preferably by creating a new discussion on our [GitHub Discussions page](https://github.com/johannschopplich/kirby-copilot/discussions).

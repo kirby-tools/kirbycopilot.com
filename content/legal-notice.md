@@ -11,7 +11,7 @@ Germany
 
 ## Contact Options
 
-E-Mail-Adresse: [hello@kirbycopilot.com](mailto:hello@kirbycopilot.com)
+Email address: [hello@kirbycopilot.com](mailto:hello@kirbycopilot.com)
 
 ## Journalistic-Editorial Offers
 

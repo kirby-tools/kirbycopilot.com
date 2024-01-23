@@ -3,7 +3,6 @@ const title = "Playground";
 const description = "Try Kirby Copilot in the interactive Panel playground.";
 
 useSeoMeta({
-  titleTemplate: "%s – Kirby Copilot",
   title,
   ogTitle: `${title} – Kirby Copilot`,
   description,
