@@ -57,9 +57,8 @@ export default defineNuxtConfig({
   },
 
   routeRules: {
+    "/**": { prerender: true },
     "/api/search.json": { prerender: true },
-    "/": { prerender: true },
     "/docs": { redirect: "/docs/getting-started", prerender: false },
-    "/docs/getting-started": { prerender: true },
   },
 });
