@@ -29,7 +29,7 @@ useHead({
 });
 
 useServerSeoMeta({
-  titleTemplate: "%s - Kirby Copilot",
+  titleTemplate: "%s – Kirby Copilot",
   ogSiteName: "Kirby Copilot",
   twitterCard: "summary_large_image",
 });

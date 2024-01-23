@@ -40,10 +40,12 @@ const links = [
       },
       {
         label: "GitHub Discussions",
+        icon: "i-ri-external-link-fill",
         to: "https://github.com/johannschopplich/kirby-copilot/discussions",
       },
       {
         label: "GitHub Issues",
+        icon: "i-ri-external-link-fill",
         to: "https://github.com/johannschopplich/kirby-copilot/issues",
       },
     ],
