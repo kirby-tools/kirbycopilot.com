@@ -19,6 +19,13 @@ useHead({
       href: `https://kirbycopilot.com${withoutTrailingSlash(route.path)}`,
     },
   ],
+  script: [
+    {
+      src: "https://plausible.io/js/script.js",
+      defer: true,
+      "data-domain": "kirbycopilot.com",
+    },
+  ],
 });
 
 useServerSeoMeta({
