@@ -57,14 +57,10 @@ export default defineNuxtConfig({
   },
 
   routeRules: {
+    "/**": { isr: true },
     "/api/search.json": { prerender: true },
+    "/": { prerender: true },
     "/docs": { redirect: "/docs/getting-started", prerender: false },
-  },
-
-  nitro: {
-    prerender: {
-      routes: ["/", "/docs/getting-started"],
-      crawlLinks: true,
-    },
+    "/docs/getting-started": { prerender: true },
   },
 });
