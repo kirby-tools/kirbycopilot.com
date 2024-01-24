@@ -213,7 +213,7 @@ useEventListener(player, "ended", () => {
       </template>
 
       <template #projects>
-        <ULandingLogos align="center">
+        <ULandingLogos align="center" :ui="{ images: 'justify-center' }">
           <UButton
             v-for="(project, projectIndex) in section.projects"
             :key="projectIndex"
