@@ -40,13 +40,13 @@ const links = [
       },
       {
         label: "GitHub Discussions",
-        icon: "i-ri-external-link-fill",
         to: "https://github.com/johannschopplich/kirby-copilot/discussions",
+        target: "_blank",
       },
       {
         label: "GitHub Issues",
-        icon: "i-ri-external-link-fill",
         to: "https://github.com/johannschopplich/kirby-copilot/issues",
+        target: "_blank",
       },
     ],
   },
@@ -67,7 +67,15 @@ const links = [
 
   <UFooter>
     <template #top>
-      <UFooterColumns :links="links" />
+      <UFooterColumns :links="links">
+        <template #right>
+          <div class="prose prose-primary dark:prose-invert prose-sm">
+            Kirby Copilot is not affiliated with the developers of Kirby CMS.
+            Having said that, we love Kirby. This plugin wouldn't exist without
+            it. 💛
+          </div>
+        </template>
+      </UFooterColumns>
     </template>
 
     <template #left>
