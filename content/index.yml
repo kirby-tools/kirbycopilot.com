@@ -68,7 +68,7 @@ sections:
         color: white
         size: lg
         trailingIcon: i-ri-arrow-right-line
-  - title: You May Us From<br class="hidden lg:block"> <span class="text-primary">These Plugins</span>
+  - title: You May Know Us From<br class="hidden lg:block"> <span class="text-primary">These Plugins</span>
     slot: projects
     projects:
       - title: Kirby Content Translator
