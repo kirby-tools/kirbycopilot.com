@@ -21,7 +21,7 @@ useSeoMeta({
   twitterImage: "https://kirbycopilot.com/social-card.png",
 });
 
-const source = ref("type: copilot");
+const source = ref('"provider" => "mistral"');
 const { copy, copied } = useClipboard({ source });
 
 const isPlaying = ref(false);
@@ -164,22 +164,22 @@ useEventListener(player, "ended", () => {
               v-else-if="card.type === 'generate'"
               class="flex items-center justify-center"
             >
-              <div
-                class="inline-flex items-center gap-1.5 rounded-md border border-gray-200 px-3 py-2 dark:border-gray-700"
-              >
-                <UIcon name="i-ri-loader-4-fill" class="animate-spin" />
+              <UButton color="gray" size="md">
+                <template #leading>
+                  <UIcon name="i-ri-loader-4-fill" class="animate-spin" />
+                </template>
                 Generating…
-              </div>
+              </UButton>
             </div>
             <UInput
-              v-else-if="card.type === 'examples'"
+              v-else-if="card.type === 'provider'"
               v-model="source"
               color="gray"
               readonly
               autocomplete="off"
               icon="i-ri-code-fill"
               input-class="select-none"
-              aria-label="Copilot blueprint section"
+              aria-label="Mistral provider configuration"
               size="lg"
               :ui="{
                 base: 'disabled:cursor-default',
@@ -188,7 +188,7 @@ useEventListener(player, "ended", () => {
             >
               <template #trailing>
                 <UButton
-                  aria-label="Copy Code"
+                  aria-label="Copy code"
                   :color="copied ? 'primary' : 'gray'"
                   variant="link"
                   size="2xs"

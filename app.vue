@@ -1,6 +1,7 @@
 <script setup lang="ts">
-import { withoutTrailingSlash } from "ufo";
+import { joinURL } from "ufo";
 
+const siteConfig = useSiteConfig();
 const route = useRoute();
 const colorMode = useColorMode();
 const color = computed(() =>
@@ -13,10 +14,11 @@ useHead({
   },
   meta: [{ key: "theme-color", name: "theme-color", content: color }],
   link: [
-    { rel: "icon", type: "image/svg+xml", href: "/icon.svg" },
+    { rel: "icon", href: "/favicon.ico", sizes: "any" },
+    { rel: "icon", href: "/icon.svg", type: "image/svg+xml" },
     {
       rel: "canonical",
-      href: `https://kirbycopilot.com${withoutTrailingSlash(route.path)}`,
+      href: joinURL(siteConfig.url, route.path),
     },
   ],
   script: [

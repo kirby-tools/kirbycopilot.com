@@ -38,11 +38,11 @@ sections:
           width: 444
           height: 160
         class: "col-span-5 row-span-5 lg:mb-10"
-      - title: Blocks, Writer & Text Fields
-        description: Yes, you can generate whole blocks. Tell the AI to segment the generated text into headings and paragraphs.
-        icon: i-ri-dashboard-line
-        to: /playground
-        type: generate
+      - title: Multi-Model
+        description: In addition to OpenAI GPT models, you can also use Mistral AI models!
+        icon: i-ri-openai-line
+        to: /docs/configuration/global#provider
+        type: provider
         class: col-span-7 row-span-3
         orientation: horizontal
       - title: Analyze Images
@@ -55,11 +55,11 @@ sections:
           height: 160
         class: "col-span-5 row-span-5 lg:-mt-10 lg:mb-20"
         orientation: vertical
-      - title: Example Blueprints
-        description: If you don't know where to start, you can use one of the example blueprints to get inspired.
-        icon: i-ri-rocket-2-line
-        to: /docs/examples
-        type: examples
+      - title: Blocks, Writer & Text Fields
+        description: Yes, you can generate whole blocks. Tell the AI to segment the generated text into headings and paragraphs.
+        icon: i-ri-dashboard-line
+        to: /playground
+        type: generate
         class: col-span-7 row-span-3
         orientation: horizontal
     links:
