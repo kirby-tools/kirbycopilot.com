@@ -235,10 +235,11 @@ useEventListener(player, "ended", () => {
     </ULandingSection>
 
     <ULandingSection class="!pt-0">
-      <ULandingCTA
-        v-bind="page.cta"
-        class="bg-gray-200/50 dark:bg-gray-800/50"
-      />
+      <ULandingCTA v-bind="page.cta" class="bg-gray-200/50 dark:bg-gray-800/50">
+        <template #title>
+          <span v-html="page.cta?.title" />
+        </template>
+      </ULandingCTA>
     </ULandingSection>
   </div>
 </template>
