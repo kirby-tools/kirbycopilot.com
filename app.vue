@@ -30,7 +30,7 @@ useHead({
   ],
 });
 
-useServerSeoMeta({
+useSeoMeta({
   titleTemplate: "%s – Kirby Copilot",
   ogSiteName: "Kirby Copilot",
   twitterCard: "summary_large_image",

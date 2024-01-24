@@ -56,7 +56,9 @@ useEventListener(player, "ended", () => {
       <div
         class="absolute inset-0 z-[-1] flex items-start justify-center overflow-hidden"
       >
-        <HomeHeroBackground class="h-full w-full scale-[1.1] transform" />
+        <HomeHeroBackground
+          class="h-full w-full scale-[2] transform lg:scale-[1.1]"
+        />
       </div>
 
       <template #headline>
