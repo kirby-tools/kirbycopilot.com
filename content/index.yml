@@ -3,7 +3,7 @@ description:
 navigation: false
 hero:
   headline:
-    label: Launch with 20% off
+    label: 20% off at launch!
     to: /buy
     icon: i-ri-emotion-happy-line
   title: '<span class="text-primary">AI-Powered</span><br class="hidden lg:block"> Content Generation'
