@@ -184,7 +184,7 @@ useEventListener(player, "ended", () => {
               aria-label="Mistral provider configuration"
               size="lg"
               :ui="{
-                base: 'disabled:cursor-default',
+                base: 'font-mono disabled:cursor-default',
                 icon: { trailing: { pointer: '' } },
               }"
             >
