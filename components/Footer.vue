@@ -15,7 +15,7 @@ const links = [
     ],
   },
   {
-    label: "Resources",
+    label: "Legal",
     children: [
       {
         label: "License",

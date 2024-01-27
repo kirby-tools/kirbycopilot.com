@@ -1,5 +1,5 @@
 ---
-title: Kirby Copilot Plugin License Agreement
+title: License Agreement
 navigation.icon: i-ri-shake-hands-line
 ---
 
