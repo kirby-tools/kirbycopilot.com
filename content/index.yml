@@ -46,7 +46,7 @@ sections:
         class: col-span-7 row-span-3
         orientation: horizontal
       - title: Process Images & PDFs
-        description: Add images and let GPT vision extract key information from them, or extract text from PDF files for your prompt!
+        description: Add images and let GPT vision extract key information from them, or extract text from PDF files for your prompt.
         to: /docs/context/files
         icon: i-ri-chat-new-line
         image:
