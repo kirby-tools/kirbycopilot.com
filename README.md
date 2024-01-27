@@ -15,7 +15,7 @@ To streamline content creation for you or your clients and editors, Kirby Copilo
 - 🛎️ **Playground**: Try out the plugin's features with an interactive live demo.
 
 > [!TIP]
-> Kirby Copilot is multi-modal and supports [OpenAI models](https://platform.openai.com/docs/models) such as GPT-4 and [Mistral models](https://mistral.ai/product/). We will add support for other AI providers if there is enough demand.
+> Kirby Copilot is multi-modal and supports [OpenAI models](https://platform.openai.com/docs/models) such as GPT-4 Turbo and [Mistral models](https://mistral.ai/product/). We will add support for other AI providers if there is enough demand.
 
 ---
 

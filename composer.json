@@ -1,0 +1,15 @@
+{
+  "name": "johannschopplich/kirby-copilot",
+  "description": "AI-powered content generation for the Kirby CMS",
+  "type": "kirby-plugin",
+  "version": "1.3.0",
+  "license": "PROPRIETARY",
+  "homepage": "https://kirbycopilot.com",
+  "authors": [
+    {
+      "name": "Johann Schopplich",
+      "email": "pkg@johannschopplich.com",
+      "homepage": "https://johannschopplich.com"
+    }
+  ]
+}
