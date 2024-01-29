@@ -16,7 +16,7 @@ if (!page.value) {
 const { data: versions } = await useAsyncData("versions", () =>
   queryContent("/changelog")
     .where({ _extension: "md" })
-    .sort({ date: -1 })
+    .sort({ date: -1, title: -1 })
     .find(),
 );
 
