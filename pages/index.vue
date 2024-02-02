@@ -25,23 +25,19 @@ const source = ref('"provider" => "mistral"');
 const { copy, copied } = useClipboard({ source });
 
 const isPlaying = ref(false);
-const videoPlayer = ref<(HTMLVideoElement | undefined)[]>();
-const player = computed(() => videoPlayer.value?.[0]);
 
-function handleVideoClick() {
+function handleVideoClick(event: MouseEvent) {
+  const player = event.target as HTMLVideoElement;
+
   if (isPlaying.value) {
-    player.value!.pause();
+    player.pause();
     isPlaying.value = false;
     return;
   }
 
-  player.value!.play();
+  player.play();
   isPlaying.value = true;
 }
-
-useEventListener(player, "ended", () => {
-  isPlaying.value = false;
-});
 </script>
 
 <template>
@@ -116,15 +112,18 @@ useEventListener(player, "ended", () => {
           :class="[
             !isPlaying && 'hover:ring-primary-500 dark:hover:ring-primary-400',
           ]"
-          @click="handleVideoClick"
         >
-          <video ref="videoPlayer" muted loop class="rounded-xl">
-            <source src="/kirby-copilot-demo.mp4" type="video/mp4" />
-          </video>
+          <video
+            src="/kirby-copilot-demo.mp4"
+            muted
+            class="rounded-xl"
+            @ended="isPlaying = false"
+            @click="handleVideoClick"
+          />
 
           <div
             v-show="!isPlaying"
-            class="absolute inset-0 z-[1] flex items-center justify-center rounded-xl bg-gradient-to-b from-gray-500 to-transparent to-25% dark:from-gray-600"
+            class="pointer-events-none absolute inset-0 flex items-center justify-center rounded-xl bg-gradient-to-b from-gray-500 to-transparent to-25% dark:from-gray-600"
           >
             <UIcon
               name="i-ri-play-circle-fill"
