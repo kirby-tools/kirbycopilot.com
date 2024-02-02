@@ -3,6 +3,8 @@ import { withLeadingSlash } from "ufo";
 
 defineProps<{
   src: string;
+  width?: number;
+  height?: number;
 }>();
 
 const isPlaying = ref(false);
@@ -12,6 +14,8 @@ const isPlaying = ref(false);
   <div class="group relative cursor-pointer rounded-xl">
     <video
       :src="withLeadingSlash(src)"
+      :width="width"
+      :height="height"
       muted
       controls
       class="rounded-xl"
