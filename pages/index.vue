@@ -123,7 +123,7 @@ function handleVideoClick(event: MouseEvent) {
 
           <div
             v-show="!isPlaying"
-            class="pointer-events-none absolute inset-0 flex items-center justify-center rounded-xl bg-gradient-to-b from-gray-500 to-transparent to-25% dark:from-gray-600"
+            class="pointer-events-none absolute inset-0 flex items-center justify-center rounded-xl bg-gradient-to-b from-gray-500 to-[rgba(0,0,0,0)] to-25% dark:from-gray-600"
           >
             <UIcon
               name="i-ri-play-circle-fill"

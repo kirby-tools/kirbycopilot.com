@@ -3,8 +3,8 @@ import { withLeadingSlash } from "ufo";
 
 defineProps<{
   src: string;
-  width?: number;
-  height?: number;
+  width?: string | number;
+  height?: string | number;
 }>();
 
 const isPlaying = ref(false);
@@ -26,7 +26,7 @@ const isPlaying = ref(false);
 
     <div
       v-show="!isPlaying"
-      class="pointer-events-none absolute inset-0 rounded-xl bg-gradient-to-b from-gray-500 to-transparent to-25% dark:from-gray-600"
+      class="pointer-events-none absolute inset-0 rounded-xl bg-gradient-to-b from-gray-500 to-[rgba(0,0,0,0)] to-25% dark:from-gray-600"
     />
   </div>
 </template>
