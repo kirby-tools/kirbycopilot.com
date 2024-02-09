@@ -8,13 +8,12 @@ const color = computed(() =>
   colorMode.value === "dark" ? "#18181b" : "#f4f4f5",
 );
 
-useHead({
+useServerHead({
   htmlAttrs: {
     lang: "en",
   },
-  meta: [{ key: "theme-color", name: "theme-color", content: color }],
   link: [
-    { rel: "icon", href: "/favicon.ico", sizes: "any" },
+    { rel: "icon", href: "/favicon.ico", sizes: "32x32" },
     { rel: "icon", href: "/icon.svg", type: "image/svg+xml" },
     {
       rel: "canonical",
@@ -31,6 +30,7 @@ useHead({
 });
 
 useSeoMeta({
+  themeColor: color,
   titleTemplate: "%s – Kirby Copilot",
   ogSiteName: "Kirby Copilot",
   twitterCard: "summary_large_image",
