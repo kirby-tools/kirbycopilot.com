@@ -22,18 +22,7 @@ export default defineNuxtConfig({
         default: "github-light",
         dark: "github-dark",
       },
-      langs: [
-        // Defaults
-        "js",
-        "ts",
-        "vue",
-        "css",
-        "html",
-        "vue",
-        "shell",
-        // Additional
-        "php",
-      ],
+      langs: ["json", "bash", "yaml", "php"],
     },
   },
 
