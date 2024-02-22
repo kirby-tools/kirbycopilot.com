@@ -14,7 +14,7 @@ const links = computed(
       <template #left>
         <UAside>
           <template #top>
-            <UDocsSearchButton size="sm" />
+            <UContentSearchButton size="sm" />
           </template>
 
           <UNavigationTree :links="mapContentNavigation(links)" />

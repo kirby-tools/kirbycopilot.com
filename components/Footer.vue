@@ -92,7 +92,7 @@ const links = [
 
     <template #right>
       <!-- <UTooltip text="Search" :shortcuts="[metaSymbol, 'K']">
-        <UDocsSearchButton label="" />
+        <UContentSearchButton label="" />
       </UTooltip> -->
       <UColorModeButton size="sm" />
       <UButton
