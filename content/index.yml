@@ -4,7 +4,7 @@ navigation: false
 hero:
   headline:
     label: PDF support landed in v1.3!
-    to: /docs/context/files
+    to: /docs/context/files#extracting-text-from-pdfs
     icon: i-ri-file-paper-line
   title: '<span class="text-primary">AI-Powered</span><br> Content Generation'
   description: Kirby Copilot is your everyday AI companion for the Kirby Panel.<br class="hidden lg:block"> It helps you to create content faster and more efficiently.
