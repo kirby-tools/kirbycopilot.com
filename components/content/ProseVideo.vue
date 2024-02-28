@@ -28,7 +28,7 @@ const isPlaying = ref(false);
 
     <div
       v-show="!isPlaying"
-      class="pointer-events-none absolute inset-0 rounded-xl bg-gradient-to-b from-[rgb(var(--ui-background)_/_75%)] to-[rgba(0,0,0,0)] to-25% dark:from-gray-900"
+      class="pointer-events-none absolute inset-0 rounded-xl bg-gradient-to-b from-gray-950/50 to-[rgba(0,0,0,0)] to-25%"
     />
   </div>
 </template>
