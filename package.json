@@ -28,6 +28,7 @@
     "@types/node": "^20.11.19",
     "@vueuse/nuxt": "^10.8.0",
     "eslint": "^8.56.0",
+    "lite-youtube-embed": "^0.3.0",
     "nuxt": "^3.10.3",
     "nuxt-og-image": "^3.0.0-rc.38",
     "prettier": "^3.2.5",
