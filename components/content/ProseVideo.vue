@@ -3,6 +3,7 @@ import { withLeadingSlash } from "ufo";
 
 defineProps<{
   src: string;
+  poster?: string;
   width?: string | number;
   height?: string | number;
 }>();
@@ -14,6 +15,7 @@ const isPlaying = ref(false);
   <div class="group relative cursor-pointer rounded-xl">
     <video
       :src="withLeadingSlash(src)"
+      :poster="poster"
       :width="width"
       :height="height"
       muted
@@ -26,7 +28,7 @@ const isPlaying = ref(false);
 
     <div
       v-show="!isPlaying"
-      class="pointer-events-none absolute inset-0 rounded-xl bg-gradient-to-b from-gray-500 to-[rgba(0,0,0,0)] to-25% dark:from-gray-600"
+      class="pointer-events-none absolute inset-0 rounded-xl bg-gradient-to-b from-[rgb(var(--ui-background)_/_75%)] to-[rgba(0,0,0,0)] to-25% dark:from-gray-900"
     />
   </div>
 </template>
