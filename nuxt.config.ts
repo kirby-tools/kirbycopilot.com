@@ -4,9 +4,8 @@ export default defineNuxtConfig({
   modules: [
     "@nuxt/content",
     "@nuxt/image",
+    "@nuxt/fonts",
     "@nuxt/ui",
-    "@nuxtjs/fontaine",
-    "@nuxtjs/google-fonts",
     "@vueuse/nuxt",
     "nuxt-og-image",
   ],
@@ -33,18 +32,6 @@ export default defineNuxtConfig({
 
   ui: {
     icons: ["heroicons", "ri"],
-  },
-
-  fontMetrics: {
-    fonts: ["Instrument Serif"],
-  },
-
-  googleFonts: {
-    display: "swap",
-    download: true,
-    families: {
-      "Instrument+Serif": [400],
-    },
   },
 
   hooks: {
