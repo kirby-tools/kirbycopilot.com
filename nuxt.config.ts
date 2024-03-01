@@ -55,6 +55,7 @@ export default defineNuxtConfig({
         "/playground",
         "/buy",
         "/docs/getting-started",
+        "/docs/context/files",
         "/api/search.json",
       ],
     },
