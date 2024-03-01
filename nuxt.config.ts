@@ -44,12 +44,6 @@ export default defineNuxtConfig({
     },
   },
 
-  vue: {
-    compilerOptions: {
-      isCustomElement: (tag) => ["lite-youtube"].includes(tag),
-    },
-  },
-
   routeRules: {
     "/docs": { redirect: "/docs/getting-started", prerender: false },
   },

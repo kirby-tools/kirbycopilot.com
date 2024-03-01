@@ -35,9 +35,6 @@ devDependencies:
   eslint:
     specifier: ^8.56.0
     version: 8.56.0
-  lite-youtube-embed:
-    specifier: ^0.3.0
-    version: 0.3.0
   nuxt:
     specifier: ^3.10.3
     version: 3.10.3(@types/node@20.11.19)(eslint@8.56.0)(typescript@5.3.3)(vite@5.1.4)(vue-tsc@1.8.27)
@@ -7598,10 +7595,6 @@ packages:
       ufo: 1.4.0
       untun: 0.1.3
       uqr: 0.1.2
-    dev: true
-
-  /lite-youtube-embed@0.3.0:
-    resolution: {integrity: sha512-3DUqE1C4s/+a8PVM4ik8anBsmHOW0zUavPyFQWugBulKyQpbZFE+/268Aq/pDNW7hRQJXkXpk4QjdSCpwf7Cvg==}
     dev: true
 
   /loader-runner@4.3.0:
