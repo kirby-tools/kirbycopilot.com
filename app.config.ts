@@ -1,6 +1,6 @@
 export default defineAppConfig({
   ui: {
-    primary: "butterfly-bush",
+    primary: "medium-purple",
     gray: "zinc",
     variables: {
       light: {
@@ -12,6 +12,11 @@ export default defineAppConfig({
         foreground: "var(--color-gray-200)",
       },
     },
+    // button: {
+    //   variant: {
+    //     solid: "dark:text-white",
+    //   },
+    // },
     icons: {
       dark: "i-ri-moon-fill",
       light: "i-ri-sun-fill",

@@ -1,4 +1,4 @@
-[![Kirby Copilot Preview](./.github/kirby-copilot-preview.png)](https://kirbycopilot.com)
+[![Kirby Copilot Preview](./public/social-card.png)](https://kirbycopilot.com)
 
 # Kirby Copilot
 

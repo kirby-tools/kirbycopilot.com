@@ -5,26 +5,22 @@ export default {
   theme: {
     extend: {
       colors: {
-        "butterfly-bush": {
-          "50": "#f9f8fc",
-          "100": "#f2eff8",
-          "200": "#e8e2f2",
-          "300": "#d5cae8",
-          "400": "#b9a8d8",
-          "500": "#9e86c6",
-          "600": "#866ab3",
-          "700": "#6c5294",
-          "800": "#5f4980",
-          "900": "#4e3c67",
-          "950": "#332348",
+        "medium-purple": {
+          "50": "#f6f2ff",
+          "100": "#ede8ff",
+          "200": "#ded4ff",
+          "300": "#c6b2ff",
+          "400": "#a780ff",
+          "500": "#9155fd",
+          "600": "#8532f5",
+          "700": "#7620e1",
+          "800": "#631abd",
+          "900": "#52189a",
+          "950": "#320c69",
         },
       },
       fontFamily: {
-        serif: [
-          "Instrument Serif",
-          "Instrument Serif fallback",
-          ...defaultTheme.fontFamily.serif,
-        ],
+        serif: ["Instrument Serif", ...defaultTheme.fontFamily.serif],
       },
     },
   },
