@@ -33,17 +33,6 @@ defineOgImageComponent("Default", {
         constrained: 'max-w-md',
       }"
     >
-      <div
-        v-if="page.discount"
-        class="relative z-[1] -mb-4 flex justify-center"
-      >
-        <div
-          class="border-primary gap-x-1.5 rounded-md border-2 border-dashed bg-gray-50 px-2.5 py-1.5 text-sm font-medium text-gray-900 shadow-sm dark:bg-gray-900 dark:text-white"
-        >
-          {{ page.discount.label }}
-        </div>
-      </div>
-
       <UPricingCard v-bind="page.plan" />
     </UContainer>
 
