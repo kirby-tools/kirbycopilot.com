@@ -11,9 +11,6 @@ if (!page.value) {
   });
 }
 
-const coupon = ref(page.value.coupon?.code);
-const { copy, copied } = useClipboard({ source: coupon });
-
 useSeoMeta({
   title: page.value.title,
   ogTitle: `${page.value.title} – Kirby Copilot`,
@@ -45,19 +42,6 @@ defineOgImageComponent("Default", {
         >
           {{ page.discount.label }}
         </div>
-      </div>
-      <div v-if="page.coupon" class="relative z-[1] -mb-4 flex justify-center">
-        <UButton
-          :color="copied ? 'white' : 'gray'"
-          variant="ghost"
-          :icon="
-            copied ? 'i-ri-checkbox-circle-line' : 'i-ri-discount-percent-fill'
-          "
-          class="border-primary border-2 border-dashed bg-gray-50 dark:bg-gray-900"
-          @click="copy(coupon)"
-        >
-          {{ copied ? "Copied!" : page.coupon.label }}
-        </UButton>
       </div>
 
       <UPricingCard v-bind="page.plan" />
