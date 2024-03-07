@@ -17,6 +17,13 @@ const links = [
 ];
 
 const navigation = inject<Ref<NavItem[]>>("navigation", ref([]));
+
+const { data: version } = await useAsyncData("version", () =>
+  queryContent("/changelog")
+    .where({ _extension: "md" })
+    .sort({ date: -1 })
+    .findOne(),
+);
 </script>
 
 <template>
@@ -32,6 +39,13 @@ const navigation = inject<Ref<NavItem[]>>("navigation", ref([]));
     </template>
 
     <template #right>
+      <UButton
+        v-if="version"
+        :label="version.title"
+        color="gray"
+        variant="link"
+        to="/changelog"
+      />
       <UButton label="Try" color="gray" to="/playground" />
       <UButton
         label="Buy"

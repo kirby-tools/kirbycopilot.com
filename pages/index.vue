@@ -62,7 +62,7 @@ function handleVideoClick(event: MouseEvent) {
           v-if="page.hero.headline"
           variant="subtle"
           size="md"
-          class="hover:bg-primary-100 dark:bg-primary-950/100 dark:hover:bg-primary-900 transition-color relative rounded-full font-medium shadow-none"
+          class="hover:bg-primary-100 dark:bg-primary-950/100 dark:hover:bg-primary-900 relative rounded-full font-medium shadow-none"
         >
           <NuxtLink
             :to="page.hero.headline.to"
