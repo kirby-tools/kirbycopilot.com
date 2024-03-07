@@ -21,7 +21,7 @@ const navigation = inject<Ref<NavItem[]>>("navigation", ref([]));
 const { data: version } = await useAsyncData("version", () =>
   queryContent("/changelog")
     .where({ _extension: "md" })
-    .sort({ date: -1 })
+    .sort({ date: -1, title: -1 })
     .findOne(),
 );
 </script>
