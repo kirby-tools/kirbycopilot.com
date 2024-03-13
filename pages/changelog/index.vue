@@ -35,7 +35,16 @@ defineOgImageComponent("Default", {
 
 <template>
   <UContainer>
-    <UPageHeader v-bind="page" />
+    <UPageHeader :title="page!.title" :description="page!.description" />
+
+    <UPageBody
+      prose
+      :ui="{
+        wrapper: 'pb-0',
+      }"
+    >
+      <ContentRenderer v-if="page!.body" :value="page" />
+    </UPageBody>
 
     <div
       v-for="version in versions"
