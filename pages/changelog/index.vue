@@ -46,7 +46,7 @@ defineOgImageComponent("Default", {
       <ContentRenderer v-if="page!.body" :value="page" />
     </UPageBody>
 
-    <div class="divide-y-gray-200 dark:divide-y-gray-800 divide-y pb-24">
+    <div class="divide-y divide-gray-200 pb-24 dark:divide-gray-800">
       <div
         v-for="version in versions"
         :key="version.title"
