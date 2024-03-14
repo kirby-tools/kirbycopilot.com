@@ -65,7 +65,5 @@ defineOgImageComponent("Default", {
         <ContentRenderer :value="version" />
       </div>
     </div>
-
-    <UPageBody />
   </UContainer>
 </template>
