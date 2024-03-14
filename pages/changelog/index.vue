@@ -14,7 +14,7 @@ if (!page.value) {
 }
 
 const { data: versions } = await useAsyncData("versions", () =>
-  queryContent("/changelog")
+  queryContent("/changelog/")
     .where({ _extension: "md" })
     .sort({ date: -1, title: -1 })
     .find(),
@@ -46,23 +46,25 @@ defineOgImageComponent("Default", {
       <ContentRenderer v-if="page!.body" :value="page" />
     </UPageBody>
 
-    <div
-      v-for="version in versions"
-      :key="version.title"
-      class="relative grid border-b border-gray-200 py-[50px] md:grid-cols-3 dark:border-gray-800"
-    >
-      <div>
-        <h2 class="text-xl font-semibold">
-          {{ version.title }}
-        </h2>
-        <p class="mt-2 text-gray-500 dark:text-gray-400">
-          {{ formatTimeAgo(new Date(version.date)) }}
-        </p>
-      </div>
+    <div class="divide-y-gray-200 dark:divide-y-gray-800 divide-y pb-24">
       <div
-        class="prose prose-primary dark:prose-invert max-w-none md:col-span-2"
+        v-for="version in versions"
+        :key="version.title"
+        class="relative grid py-[48px] md:grid-cols-3"
       >
-        <ContentRenderer :value="version" />
+        <div>
+          <h2 class="text-xl font-semibold">
+            {{ version.title }}
+          </h2>
+          <p class="mt-2 text-gray-500 dark:text-gray-400">
+            {{ formatTimeAgo(new Date(version.date)) }}
+          </p>
+        </div>
+        <div
+          class="prose prose-primary dark:prose-invert max-w-none md:col-span-2"
+        >
+          <ContentRenderer :value="version" />
+        </div>
       </div>
     </div>
   </UContainer>

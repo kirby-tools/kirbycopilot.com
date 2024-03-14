@@ -16,8 +16,11 @@ hero:
       icon: i-ri-arrow-right-line
       trailing: true
 sections:
-  - title: A Kirby Panel Section<br> <span class="text-primary">Dedicated to AI</span>
+  - title: Generate Text Based On<br> <span class="text-primary">Your Page Data</span>
     slot: video
+    video:
+      path: /vid/kirby-copilot-image-context.mp4
+      poster: /vid/kirby-copilot-image-context-poster.jpg
   - title: Bring Context to Your<br class="hidden lg:block"> <span class="text-primary">Prompt Party</span>
     slot: features
     class: "dark:bg-gradient-to-b from-gray-900 to-gray-950/50 dark:lg:bg-none dark:lg:bg-gray-950/50"
@@ -68,6 +71,11 @@ sections:
         color: white
         size: lg
         trailingIcon: i-ri-arrow-right-line
+  - title: Summarize PDF Files<br> <span class="text-primary">Directly in the Panel</span>
+    slot: video
+    video:
+      path: /vid/kirby-copilot-pdf-files.mp4
+      poster: /vid/kirby-copilot-pdf-files-poster.jpg
   - title: You May Know Us From<br class="hidden lg:block"> <span class="text-primary">These Plugins</span>
     slot: projects
     projects:

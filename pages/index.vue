@@ -114,8 +114,8 @@ function handleVideoClick(event: MouseEvent) {
           ]"
         >
           <video
-            src="/vid/kirby-copilot-demo.mp4"
-            poster="/vid/kirby-copilot-demo-poster.jpg"
+            :src="section.video.path"
+            :poster="section.video.poster"
             muted
             class="rounded-xl"
             @ended="isPlaying = false"
