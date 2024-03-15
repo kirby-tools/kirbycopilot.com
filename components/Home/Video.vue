@@ -11,6 +11,9 @@ defineProps<{
 const prefersReducedMotion = import.meta.client
   ? matchMedia("(prefers-reduced-motion: reduce)").matches
   : false;
+const isTouchDevice = import.meta.client
+  ? matchMedia("(hover: none)").matches
+  : false;
 const video = ref<HTMLVideoElement | undefined>();
 const isPlaying = ref(false);
 const hasAutoplay = ref(true);
@@ -18,7 +21,12 @@ const hasAutoplay = ref(true);
 useIntersectionObserver(
   video,
   ([{ isIntersecting }]) => {
-    if (isIntersecting && !prefersReducedMotion && hasAutoplay.value) {
+    if (
+      isIntersecting &&
+      hasAutoplay.value &&
+      !prefersReducedMotion &&
+      !isTouchDevice
+    ) {
       video.value?.play();
       isPlaying.value = true;
       hasAutoplay.value = false;
@@ -36,11 +44,10 @@ function handleVideoClick(event: MouseEvent) {
   if (isPlaying.value) {
     player.pause();
     isPlaying.value = false;
-    return;
+  } else {
+    player.play();
+    isPlaying.value = true;
   }
-
-  player.play();
-  isPlaying.value = true;
 }
 </script>
 
