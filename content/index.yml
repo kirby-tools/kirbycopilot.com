@@ -20,7 +20,7 @@ sections:
     slot: video
     video:
       path: /vid/kirby-copilot-image-context.mp4
-      poster: /vid/kirby-copilot-image-context-poster.jpg
+      poster: /vid/kirby-copilot-image-context-poster-start.jpg
   - title: Bring Context to Your<br class="hidden lg:block"> <span class="text-primary">Prompt Party</span>
     slot: features
     class: "dark:bg-gradient-to-b from-gray-900 to-gray-950/50 dark:lg:bg-none dark:lg:bg-gray-950/50"
@@ -75,7 +75,7 @@ sections:
     slot: video
     video:
       path: /vid/kirby-copilot-pdf-files.mp4
-      poster: /vid/kirby-copilot-pdf-files-poster.jpg
+      poster: /vid/kirby-copilot-pdf-files-poster-start.jpg
   - title: You May Know Us From<br class="hidden lg:block"> <span class="text-primary">These Plugins</span>
     slot: projects
     projects:

@@ -69,11 +69,11 @@ const { copy, copied } = useClipboard({ source });
       </template>
 
       <template #title>
-        <span v-html="page.hero?.title" />
+        <span v-html="page.hero.title" />
       </template>
 
       <template #description>
-        <span v-html="page.hero?.description" />
+        <span v-html="page.hero.description" />
       </template>
     </ULandingHero>
 

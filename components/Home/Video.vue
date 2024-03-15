@@ -8,7 +8,27 @@ defineProps<{
   poster: string;
 }>();
 
+const prefersReducedMotion = import.meta.client
+  ? matchMedia("(prefers-reduced-motion: reduce)").matches
+  : false;
+const video = ref<HTMLVideoElement | undefined>();
 const isPlaying = ref(false);
+const hasAutoplay = ref(true);
+
+useIntersectionObserver(
+  video,
+  ([{ isIntersecting }]) => {
+    if (isIntersecting && !prefersReducedMotion && hasAutoplay.value) {
+      video.value?.play();
+      isPlaying.value = true;
+      hasAutoplay.value = false;
+    } else if (isPlaying.value) {
+      video.value?.pause();
+      isPlaying.value = false;
+    }
+  },
+  { threshold: 1 },
+);
 
 function handleVideoClick(event: MouseEvent) {
   const player = event.target as HTMLVideoElement;
@@ -32,6 +52,7 @@ function handleVideoClick(event: MouseEvent) {
     ]"
   >
     <video
+      ref="video"
       :src="path"
       :poster="poster"
       muted
