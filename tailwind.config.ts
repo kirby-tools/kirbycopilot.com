@@ -1,5 +1,4 @@
 import type { Config } from "tailwindcss";
-import defaultTheme from "tailwindcss/defaultTheme";
 
 export default {
   theme: {
@@ -20,7 +19,7 @@ export default {
         },
       },
       fontFamily: {
-        serif: ["Instrument Serif", ...defaultTheme.fontFamily.serif],
+        serif: "Instrument Serif, serif",
       },
     },
   },
