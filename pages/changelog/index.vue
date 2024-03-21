@@ -1,6 +1,4 @@
 <script setup lang="ts">
-import { formatTimeAgo } from "@vueuse/core";
-
 const { data: page } = await useAsyncData("changelog", () =>
   queryContent("/changelog").findOne(),
 );
@@ -19,6 +17,12 @@ const { data: versions } = await useAsyncData("versions", () =>
     .sort({ date: -1, title: -1 })
     .find(),
 );
+
+const { format } = new Intl.DateTimeFormat("en", {
+  year: "numeric",
+  month: "long",
+  day: "numeric",
+});
 
 useSeoMeta({
   title: page.value.title,
@@ -57,13 +61,13 @@ defineOgImageComponent("Default", {
             {{ version.title }}
           </h2>
           <p class="mt-2 text-gray-500 dark:text-gray-400">
-            {{ formatTimeAgo(new Date(version.date)) }}
+            {{ format(new Date(version.date)) }}
           </p>
         </div>
         <div
           class="prose prose-primary dark:prose-invert max-w-none md:col-span-2"
         >
-          <ContentRenderer :value="version" />
+          <ContentRenderer :value="version" class="[&>p]:first:mt-0" />
         </div>
       </div>
     </div>

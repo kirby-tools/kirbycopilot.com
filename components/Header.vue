@@ -1,7 +1,8 @@
 <script setup lang="ts">
 import type { NavItem } from "@nuxt/content/dist/runtime/types";
+import type { HeaderLink } from "#ui-pro/types";
 
-const links = [
+const links: HeaderLink[] = [
   {
     label: "Documentation",
     to: "/docs/getting-started",
