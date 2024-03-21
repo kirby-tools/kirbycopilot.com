@@ -26,7 +26,7 @@ faq:
   description: If you can't find what you're looking for, email our team and we'll get back to you.
   items:
     - label: What do I get with my purchase?
-      content: After your purchase, you will receive an email with a download link to a ZIP file containing the plugin. Install the plugin into your Kirby project, configure your AI model provider and you're ready to go.
+      content: After your purchase, you will receive an email with a download link to a ZIP file containing the plugin. To install the plugin into your Kirby project, follow the instructions in the [documentation](/docs/getting-started/installation).
       defaultOpen: true
     - label: Do I need an OpenAI API key?
       content: If you want to use GPT models then yes, you need a key for the [OpenAI API](https://platform.openai.com) allowing Kirby Copilot request text completions from it. If you want to use Mistral models instead, you will need an API key for [Mistral](https://mistral.ai).
