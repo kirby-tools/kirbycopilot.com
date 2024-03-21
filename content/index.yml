@@ -3,7 +3,7 @@ description: Let AI generate blocks and text from your prompts right in the Kirb
 navigation: false
 hero:
   headline:
-    label: Auto-Generate Alt Text for Images
+    label: "New: Generate Alt Text for Images"
     to: /docs/context/files#panel-file-as-context-source
     icon: i-ri-image-circle-line
   title: '<span class="text-primary">AI-Powered</span><br> Content Generation'
