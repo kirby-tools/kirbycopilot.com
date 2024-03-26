@@ -10,23 +10,23 @@ hero:
 plan:
   title: All in One
   description: For individuals and teams.
-  price: 89 €
-  # discount: 71.2 €
+  price: 99 €
+  discount: 89 €
   highlight: true
   button:
     label: Get Your Copilot
     color: primary
     to: https://byjohann.lemonsqueezy.com/checkout/buy/ce8a5fd2-8a01-4972-9a5d-e9dbbca17acf
   features:
-    - Access all features
-    - Unlimited projects (if you own them)
+    - For Kirby 4
+    - Unlimited sites (owned by you)
     - Unlimited minor & patch updates
 faq:
   title: Frequently Asked Questions
   description: If you can't find what you're looking for, email our team and we'll get back to you.
   items:
     - label: How does the licensing work?
-      content: The license allows you to use the plugin on as many sites as you want, as long as you are the owner of all the sites.
+      content: The license allows you to use the plugin on as many Kirby projects as you want, as long as you are the owner of all the sites. Please refer to the [license agreement](/license) for more details.
     - label: What do I get with my purchase?
       content: After your purchase, you will receive an email with a download link to a ZIP file containing the plugin. To install the plugin into your Kirby project, follow the instructions in the [documentation](/docs/getting-started/installation). We are currently working on Composer support.
     - label: Do I need an OpenAI API key?
@@ -40,4 +40,4 @@ faq:
     - label: Do you offer technical support?
       content: You can ask questions, report bugs or feature requests on our [GitHub repository](https://github.com/johannschopplich/kirbycopilot.com). If you need personal support or advice, please [contact us](/contact).
     - label: What is your refund policy?
-      content: "Because the products we offer are digital and non-returnable, your purchase is eligible for a refund only in the following situation: There is a technical problem that we can't fix within 14 days of being notified of the problem. You must provide sufficient information about how the problem occurred. If you have any questions, please [contact us](/contact)."
+      content: We offer a 30-day money back guarantee for the plugin. If you are not satisfied with your purchase, you can [request a full refund](/contact) within 30 days of purchase. (Although we would appreciate feedback on how we can improve the plugin.)

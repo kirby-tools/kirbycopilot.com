@@ -4,10 +4,17 @@ navigation.icon: i-ri-shake-hands-line
 ---
 
 Published: 2024-01-22
+Last updated: 2024-03-27
 
 ## About this License Agreement
 
 This License Agreement outlines the terms and conditions for the use of the Kirby Copilot plugin ("Plugin") sold on Lemon Squeezy by Johann Schopplich ("Licensor"). By purchasing, downloading, installing, or using the Plugin, you ("Licensee") agree to comply with this License Agreement.
+
+Every effort has been made to accurately represent the Plugin and its potential. Please ensure you have read and understood the Plugin's capabilities and limitations, which are detailed on our website, before making your purchase.
+
+## Payment Processing
+
+All payments for the Plugin are processed securely through our online reseller, Lemon Squeezy. Lemon Squeezy is the Merchant of Record for all our orders, ensuring that your payment information is handled with the highest level of security and compliance with PCI DSS standards. By purchasing the Plugin, you agree that you will not provide your payment details directly to us but will complete your purchase through the secure Lemon Squeezy platform.
 
 ## Grant of License
 
@@ -40,7 +47,7 @@ Minor and patch updates are provided for the Plugin. Major updates and support a
 
 ## Refund Policy
 
-Refunds are issued only for unresolved technical issues reported within 14 days of purchase, subject to verification by the Licensor.
+Refunds are provided under a 30-day money-back guarantee for the Plugin. Dissatisfaction with a purchase must be communicated within 30 days from the date of purchase to qualify for a refund. All refunds are subject to verification and approval by the Licensor. Completion of a purchase signifies acknowledgment and agreement to this refund policy.
 
 ## Disclaimer of Warranty
 
@@ -79,6 +86,8 @@ The Licensor complies with the General Data Protection Regulation (GDPR). Person
 The Licensor reserves the right to amend this Agreement at any time. Continued use of the Plugin after such changes shall constitute the Licensee's consent to such changes.
 
 ## Contact Information
+
+For questions regarding your purchase, payment processing, refunds, or customer service inquiries, please note that our order process is conducted by our online reseller Lemon Squeezy. Lemon Squeezy is the Merchant of Record for all our orders, providing customer service inquiries and handling returns.
 
 For questions regarding this License Agreement, please contact the Licensor at:
 
