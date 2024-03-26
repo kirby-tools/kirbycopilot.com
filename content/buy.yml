@@ -37,7 +37,7 @@ faq:
     - label: How do I receive updates for the plugin?
       content: You will be notified by email when a new version of the plugin is available. You can then download the latest version from your [order page](https://app.lemonsqueezy.com/my-orders) on Lemon Squeezy.
     - label: Do you offer technical support?
-      content: You can ask questions, report bugs or feature requests on our [GitHub repository](https://github.com/johannschopplich/kirby-copilot). If you need personal support or advice, please [contact us](/contact).
+      content: You can ask questions, report bugs or feature requests on our [GitHub repository](https://github.com/johannschopplich/kirbycopilot.com). If you need personal support or advice, please [contact us](/contact).
     - label: Can I use this plugin on multiple sites?
       content: The license allows you to use the plugin on as many sites as you want, as long as you are the owner of all the sites.
     - label: What is your refund policy?

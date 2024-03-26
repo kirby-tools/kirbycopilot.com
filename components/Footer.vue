@@ -40,12 +40,12 @@ const links = [
       },
       {
         label: "GitHub Discussions",
-        to: "https://github.com/johannschopplich/kirby-copilot/discussions",
+        to: "https://github.com/johannschopplich/kirbycopilot.com/discussions",
         target: "_blank",
       },
       {
         label: "GitHub Issues",
-        to: "https://github.com/johannschopplich/kirby-copilot/issues",
+        to: "https://github.com/johannschopplich/kirbycopilot.com/issues",
         target: "_blank",
       },
     ],
@@ -98,7 +98,7 @@ const links = [
       <UButton
         aria-label="Kirby Copilot on GitHub"
         icon="i-ri-github-fill"
-        to="https://github.com/johannschopplich/kirby-copilot"
+        to="https://github.com/johannschopplich/kirbycopilot.com"
         target="_blank"
         v-bind="$ui.button.secondary as any"
       />
