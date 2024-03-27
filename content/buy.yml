@@ -10,8 +10,7 @@ hero:
 plan:
   title: All in One
   description: For individuals and teams.
-  price: 99 €
-  discount: 89 €
+  price: $99
   highlight: true
   button:
     label: Get Your Copilot
