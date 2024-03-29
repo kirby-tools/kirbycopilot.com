@@ -3,9 +3,9 @@ description: Let AI generate blocks and text from your prompts right in the Kirb
 navigation: false
 hero:
   headline:
-    label: "New: Generate Alt Text for Images"
-    to: /docs/context/files#panel-file-as-context-source
-    icon: i-ri-image-circle-line
+    label: Composer support landed!
+    to: /docs/getting-started/installation
+    icon: i-logos-composer
   title: '<span class="text-primary">AI-Powered</span><br> Content Generation'
   description: Kirby Copilot is your everyday AI companion for the Kirby Panel.<br class="hidden lg:block"> It helps you to create content faster and more efficiently.
   links:

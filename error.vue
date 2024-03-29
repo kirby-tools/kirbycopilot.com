@@ -8,7 +8,7 @@ defineProps<{
 
 useSeoMeta({
   title: "Page not found",
-  description: "We are sorry but this page could not be found.",
+  description: "Sorry, this page could not be found.",
 });
 
 const { data: navigation } = await useAsyncData(
