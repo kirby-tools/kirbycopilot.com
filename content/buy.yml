@@ -25,7 +25,7 @@ faq:
   description: If you can't find what you're looking for, email our team and we'll get back to you.
   items:
     - label: How does the licensing work?
-      content: The license allows you to use the plugin on as many Kirby projects as you want, as long as you are the owner of all the sites. Please refer to the [license agreement](/license) for more details.
+      content: The license allows you to use the plugin on as many Kirby projects as you want, as long as you are the owner of all the sites. This means that you must own the code, which is usually the case when you develop websites for clients. Please refer to the [license agreement](/license) for more details.
     - label: What do I get with my purchase?
       content: After your purchase, you will receive an email with a download link to a ZIP file containing the plugin. To install the plugin into your Kirby project, follow the instructions in the [documentation](/docs/getting-started/installation). This also includes [Composer support](/docs/getting-started/installation#composer).
     - label: Do I need an OpenAI API key?
