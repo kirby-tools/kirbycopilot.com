@@ -30,6 +30,12 @@ const links: HeaderLink[] = [
         target: "_blank",
       },
       {
+        label: "Content Translator",
+        to: "https://kirby.tools/content-translator",
+        description: "DeepL-powered translations",
+        target: "_blank",
+      },
+      {
         label: "Kirby SEO Audit",
         description: "State-of-the-art SEO analysis",
         to: "https://kirbyseo.com",
@@ -72,7 +78,7 @@ const { data: version } = await useAsyncData("version", () =>
       <UButton label="Try" color="gray" to="/playground" />
       <UButton
         label="Buy"
-        icon="i-ri-shopping-bag-3-line"
+        icon="i-ri-shopping-bag-3-fill"
         trailing
         color="black"
         to="/buy"

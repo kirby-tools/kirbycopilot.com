@@ -12,7 +12,7 @@ hero:
     - label: Try it now
       to: /playground
       size: xl
-      color: black
+      color: primary
       icon: i-ri-arrow-right-line
       trailing: true
 sections:
