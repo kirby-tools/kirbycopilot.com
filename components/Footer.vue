@@ -40,12 +40,12 @@ const links = [
       },
       {
         label: "GitHub Discussions",
-        to: "https://github.com/johannschopplich/kirbycopilot.com/discussions",
+        to: "https://github.com/kirby-tools/community/discussions",
         target: "_blank",
       },
       {
         label: "GitHub Issues",
-        to: "https://github.com/johannschopplich/kirbycopilot.com/issues",
+        to: "https://github.com/kirby-tools/community/issues",
         target: "_blank",
       },
     ],
