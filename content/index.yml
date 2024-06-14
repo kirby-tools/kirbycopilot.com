@@ -82,9 +82,9 @@ sections:
       - title: Kirby SEO Audit
         link: https://kirbyseo.com
       - title: Kirby Content Translator
-        link: https://github.com/johannschopplich/kirby-content-translator
-      - title: Kirby Headless
-        link: https://github.com/johannschopplich/kirby-headless
+        link: https://kirby.tools/content-translator
+      - title: Kirby Live Preview
+        link: https://kirby.tools/live-preview
       - title: Kirby Algolia DocSearch
         link: https://github.com/johannschopplich/kirby-algolia-docsearch
 cta:
