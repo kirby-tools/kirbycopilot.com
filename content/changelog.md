@@ -6,6 +6,12 @@ navigation.icon: i-ri-code-s-slash-line
 
 ## Where to Find the Latest Version?
 
-You can then download the latest version from your [order page](https://app.lemonsqueezy.com/my-orders) on Lemon Squeezy or run `composer update` if you have set up the [private Composer repository](/docs/getting-started/installation#composer).
+If you have installed the plugin via Composer, you can update it by running the following command in your terminal:
+
+```bash
+composer update
+```
+
+If you have downloaded the plugin as a ZIP file, you can download the latest version from the [releases page](https://github.com/kirby-tools/kirby-content-translator/releases) on GitHub.
 
 ## What's New?
