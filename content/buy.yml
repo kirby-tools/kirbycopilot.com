@@ -26,8 +26,6 @@ faq:
   items:
     - label: How does the licensing work?
       content: The license allows you to use the plugin on as many Kirby projects as you want, as long as you are the owner of all the sites. This means that you must own the code, which is usually the case when you develop websites for clients. Please refer to the [license agreement](/license) for more details.
-    - label: What do I get with my purchase?
-      content: After your purchase, you will receive an email with a download link to a ZIP file containing the plugin. To install the plugin into your Kirby project, follow the instructions in the [documentation](/docs/getting-started/installation). This also includes [Composer support](/docs/getting-started/installation#composer).
     - label: Do I need an OpenAI API key?
       content: If you want to use GPT models then yes, you need a key for the [OpenAI API](https://platform.openai.com) allowing Kirby Copilot request text completions from it. If you want to use Mistral models instead, you will need an API key for [Mistral](https://mistral.ai).
     - label: Which Kirby versions are supported?
@@ -35,7 +33,7 @@ faq:
     - label: What does “Unlimited minor & patch updates” include?
       content: We add new features and improvements to Kirby Copilot as we get ideas and feedback. You will receive these updates for the major version you have purchased. When a new major version is released, you will be able to upgrade to that version at a generous discount. A typical major version is intended to be released alongside a new major Kirby version.
     - label: How do I receive updates for the plugin?
-      content: You will be notified by email when a new version of the plugin is available. You can then download the latest version from your [order page](https://app.lemonsqueezy.com/my-orders) on Lemon Squeezy.
+      content: If you have installed the plugin via Composer, run `composer update`. Otherwise, download the latest version of the plugin as a ZIP file from the [releases page](https://github.com/kirby-tools/kirby-copilot/releases) on GitHub.
     - label: Do you offer technical support?
       content: You can ask questions, report bugs or feature requests on our [GitHub repository](https://github.com/johannschopplich/kirbycopilot.com). If you need personal support or advice, please [contact us](/contact).
     - label: What is your refund policy?
