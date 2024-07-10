@@ -21,7 +21,7 @@ useSeoMeta({
   twitterImage: "https://kirbycopilot.com/social-card.png",
 });
 
-const source = ref('"provider" => "mistral"');
+const source = ref('"provider" => "anthropic"');
 const { copy, copied } = useClipboard({ source });
 </script>
 

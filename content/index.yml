@@ -3,9 +3,9 @@ description: Let AI generate blocks and text from your prompts right in the Kirb
 navigation: false
 hero:
   headline:
-    label: Composer support landed!
-    to: /docs/getting-started/installation
-    icon: i-logos-composer
+    label: "New: Anthropic Claude Support"
+    to: /docs/configuration/global#provider
+    icon: i-logos-anthropic-icon
   title: '<span class="text-primary">AI-Powered</span><br> Content Generation'
   description: Kirby Copilot is your everyday AI companion for the Kirby Panel.<br class="hidden lg:block"> It helps you to create content faster and more efficiently.
   links:
@@ -42,7 +42,7 @@ sections:
           height: 160
         class: "col-span-5 row-span-5 lg:mb-10"
       - title: Multi-Model
-        description: In addition to OpenAI GPT models, you can also use Mistral AI models!
+        description: In addition to OpenAI GPT models, you can also use Anthropic Claude and Mistral AI models!
         icon: i-ri-openai-line
         to: /docs/configuration/global#provider
         type: provider

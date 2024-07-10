@@ -8,14 +8,14 @@ Kirby Copilot is a plugin for [Kirby CMS](https://getkirby.com) that integrates 
 
 To streamline content creation for you or your clients and editors, Kirby Copilot offers:
 
-- 🦙 **Multi-model**: Use OpenAI GPT models or Mistral AI models to generate content.
+- 🦙 **Multi-model**: Use OpenAI GPT, Anthropic Claude, or Mistral AI models to generate content.
 - 🧱 **Blocks support**: Generate content for blocks fields.
 - 🌞 **Customizable prompts**: Tailor AI responses with user and system instructions.
 - 🎀 **Context-aware responses**: Include context from other fields with placeholders in user prompts to improve content relevance.
 - 🛎️ **Playground**: Try out the plugin's features with an interactive live demo.
 
 > [!TIP]
-> Kirby Copilot is multi-modal and supports [OpenAI models](https://platform.openai.com/docs/models) such as GPT-4o and [Mistral models](https://mistral.ai/product/). We will add support for other AI providers if there is enough demand.
+> Kirby Copilot is multi-modal and supports [OpenAI models](https://platform.openai.com/docs/models) such as GPT-4o, [Anthropic Claude](https://www.anthropic.com/claude), and [Mistral models](https://mistral.ai/product/). We will add support for other AI providers if there is enough demand.
 
 ---
 
