@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import type { NavItem } from "@nuxt/content/dist/runtime/types";
+import type { NavItem } from "@nuxt/content";
 import type { HeaderLink } from "#ui-pro/types";
 
 const links: HeaderLink[] = [
@@ -19,27 +19,30 @@ const links: HeaderLink[] = [
     label: "Products",
     children: [
       {
-        label: "Kirby Copilot",
-        to: "/",
-        description: "AI-powered content generation",
+        label: "Kirby SEO Audit",
+        description: "State-of-the-art SEO analysis",
+        to: "https://kirbyseo.com",
+        target: "_blank",
       },
       {
         label: "Live Preview",
         to: "https://kirby.tools/live-preview",
+        icon: "i-ri-presentation-fill",
         description: "Real-time page preview",
         target: "_blank",
       },
       {
         label: "Content Translator",
         to: "https://kirby.tools/content-translator",
-        description: "DeepL-powered translations",
+        icon: "i-ri-translate",
+        description: "Content translation in the Panel or server-side",
         target: "_blank",
       },
       {
-        label: "Kirby SEO Audit",
-        description: "State-of-the-art SEO analysis",
-        to: "https://kirbyseo.com",
-        target: "_blank",
+        label: "Kirby Copilot",
+        to: "/",
+        icon: "i-ri-sparkling-fill",
+        description: "AI-powered content generation",
       },
     ],
   },

@@ -1,4 +1,7 @@
 <script setup lang="ts">
+const route = useRoute();
+const { $ui } = useNuxtApp();
+
 // const { metaSymbol } = useShortcuts();
 const links = [
   {
@@ -58,7 +61,7 @@ const links = [
     class="flex h-px w-full items-center justify-center bg-gray-200 dark:bg-gray-800"
   >
     <div
-      v-if="!['/playground'].includes($route.path)"
+      v-if="!['/playground'].includes(route.path)"
       class="bg-gray-50 px-4 dark:bg-gray-900"
     >
       <Logo class="h-5 w-5" />

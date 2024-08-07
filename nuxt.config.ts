@@ -30,10 +30,6 @@ export default defineNuxtConfig({
     format: ["webp"],
   },
 
-  ui: {
-    icons: ["heroicons", "ri", "logos"],
-  },
-
   hooks: {
     // Define `@nuxt/ui` components as global to use them in `.md`
     "components:extend": (components) => {
