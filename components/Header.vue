@@ -20,8 +20,9 @@ const links: HeaderLink[] = [
     children: [
       {
         label: "Kirby SEO Audit",
-        description: "State-of-the-art SEO analysis",
         to: "https://kirbyseo.com",
+        icon: "i-ri-seo-fill",
+        description: "State-of-the-art SEO analysis",
         target: "_blank",
       },
       {
