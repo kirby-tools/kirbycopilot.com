@@ -1,6 +1,7 @@
+// @ts-check
 import antfu from "@antfu/eslint-config";
 
-export default await antfu(
+export default antfu(
   {
     stylistic: false,
   },
@@ -13,5 +14,5 @@ export default await antfu(
       "vue/singleline-html-element-content-newline": "off",
       "vue/multiline-html-element-content-newline": "off",
     },
-  }
+  },
 );

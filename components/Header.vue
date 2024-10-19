@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import type { NavItem } from "@nuxt/content";
 import type { HeaderLink } from "#ui-pro/types";
+import type { NavItem } from "@nuxt/content";
 
 const links: HeaderLink[] = [
   {
@@ -26,19 +26,20 @@ const links: HeaderLink[] = [
         target: "_blank",
       },
       {
-        label: "Live Preview",
-        to: "https://kirby.tools/live-preview",
-        icon: "i-ri-presentation-fill",
-        description: "Real-time page preview",
-        target: "_blank",
-      },
-      {
         label: "Content Translator",
         to: "https://kirby.tools/content-translator",
         icon: "i-ri-translate",
         description: "Content translation in the Panel or server-side",
         target: "_blank",
       },
+      {
+        label: "Live Preview",
+        to: "https://kirby.tools/live-preview",
+        icon: "i-ri-presentation-fill",
+        description: "Real-time page preview",
+        target: "_blank",
+      },
+
       {
         label: "Kirby Copilot",
         to: "/",
