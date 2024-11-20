@@ -1,5 +1,4 @@
 export default defineNuxtConfig({
-  compatibilityDate: "2024-04-03",
   extends: ["@nuxt/ui-pro"],
 
   modules: [
@@ -10,6 +9,8 @@ export default defineNuxtConfig({
     "@vueuse/nuxt",
     "nuxt-og-image",
   ],
+
+  compatibilityDate: "2024-04-03",
 
   site: {
     url: "https://kirbycopilot.com",

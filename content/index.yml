@@ -3,9 +3,9 @@ description: Let AI generate blocks and text from your prompts right in the Kirb
 navigation: false
 hero:
   headline:
-    label: "New: Kirby 5 Support"
-    to: /docs/getting-started
-    icon: i-logos-kirby-icon
+    label: "New: Anthropic Claude Support"
+    to: /docs/configuration/global#provider
+    icon: i-logos-anthropic-icon
     iconClass: dark:invert
   title: '<span class="text-primary">AI-Powered</span><br> Content Generation'
   description: Kirby Copilot is your everyday AI companion for the Kirby Panel.<br class="hidden lg:block"> It helps you to create content faster and more efficiently.
