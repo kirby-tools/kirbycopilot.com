@@ -38,23 +38,24 @@ defineOgImageComponent("Default", {
 </script>
 
 <template>
-  <UContainer>
-    <UPageHeader :title="page!.title" :description="page!.description" />
+  <UContainer v-if="page">
+    <UPageHeader :title="page.title" :description="page.description" />
 
     <UPageBody
       prose
       :ui="{
         wrapper: 'pb-0',
+        prose: 'max-w-prose',
       }"
     >
-      <ContentRenderer v-if="page!.body" :value="page" />
+      <ContentRenderer v-if="page.body" :value="page" />
     </UPageBody>
 
     <div class="divide-y divide-gray-200 pb-24 dark:divide-gray-800">
       <div
         v-for="version in versions"
         :key="version.title"
-        class="relative grid py-[48px] md:grid-cols-3"
+        class="relative grid gap-[16px] py-[48px] md:grid-cols-3"
       >
         <div>
           <h2 class="text-xl font-semibold">
@@ -64,10 +65,14 @@ defineOgImageComponent("Default", {
             {{ format(new Date(version.date)) }}
           </p>
         </div>
+
         <div
           class="prose prose-primary dark:prose-invert max-w-none md:col-span-2"
         >
-          <ContentRenderer :value="version" class="[&>p]:first:mt-0" />
+          <ContentRenderer
+            :value="version"
+            class="[&>:first-child]:first:mt-0"
+          />
         </div>
       </div>
     </div>
