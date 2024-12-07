@@ -11,7 +11,7 @@ defineProps<{
 const prefersReducedMotion = import.meta.client
   ? matchMedia("(prefers-reduced-motion: reduce)").matches
   : false;
-const isTouchDevice = import.meta.client
+const hasTouchCapability = import.meta.client
   ? matchMedia("(hover: none)").matches
   : false;
 const video = ref<HTMLVideoElement | undefined>();
@@ -25,7 +25,7 @@ useIntersectionObserver(
       isIntersecting &&
       hasAutoplay.value &&
       !prefersReducedMotion &&
-      !isTouchDevice
+      !hasTouchCapability
     ) {
       video.value?.play();
       isPlaying.value = true;
