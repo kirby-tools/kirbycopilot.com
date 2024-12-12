@@ -7,7 +7,7 @@ hero:
     to: /docs/configuration/global#provider
     icon: i-logos-anthropic-icon
     iconClass: dark:invert
-  title: '<span class="text-primary">AI-Powered</span><br> Content Generation'
+  title: '<span class="whitespace-pre-wrap bg-gradient-to-b from-primary-500/50 to-primary-700 bg-clip-text text-transparent dark:from-primary-400 dark:to-primary-600/50">AI-Powered</span><br> Content Generation'
   description: Kirby Copilot is your everyday AI companion for the Kirby Panel.<br class="hidden lg:block"> It helps you to create content faster and more efficiently.
   links:
     - label: Try it now
