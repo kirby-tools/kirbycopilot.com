@@ -116,13 +116,13 @@ const { copy, copied } = useClipboard({ source });
           >
             <div
               v-if="card.type === 'prompt'"
-              class="rounded-md bg-[#F0F0F0] p-4"
+              class="rounded-t-md bg-[#F0F0F0] p-4"
             >
               <NuxtImg
                 src="/img/copilot-predefined-user-prompt.png"
                 sizes="320px"
                 alt="Kirby Copilot section preview"
-                class="rounded-md"
+                class="mb-[1px] rounded-md"
               />
             </div>
             <div

@@ -3,21 +3,25 @@ description: Let AI generate blocks and text from your prompts right in the Kirb
 navigation: false
 hero:
   headline:
-    label: "New: Anthropic Claude Support"
-    to: /docs/configuration/global#provider
-    icon: i-logos-anthropic-icon
-    iconClass: dark:invert
+    label: "New: Copilot v2 with Toolbar Buttons"
+    to: /docs/usage/toolbar-button
+    icon: i-ri-ai-generate
   title: '<span class="whitespace-pre-wrap bg-gradient-to-b from-primary-500/50 to-primary-700 bg-clip-text text-transparent dark:from-primary-400 dark:to-primary-600/50">AI-Powered</span><br> Content Generation'
   description: Kirby Copilot is your everyday AI companion for the Kirby Panel.<br class="hidden lg:block"> It helps you to create content faster and more efficiently.
   links:
-    - label: Try it now
+    - label: Experience AI in the Panel
       to: /playground
       size: xl
       color: primary
       icon: i-ri-arrow-right-line
       trailing: true
 sections:
-  - title: Generate Text Based On<br> <span class="text-primary">Your Page Data</span>
+  - title: Prompt Dialog for<br> <span class="text-primary">Selected Text</span>
+    slot: video
+    video:
+      path: /vid/kirby-copilot-writer-prompt-dialog.mp4
+      poster: /vid/kirby-copilot-writer-prompt-dialog-poster-start.jpg
+  - title: Generate Blocks<br> <span class="text-primary">Directly in the Panel</span>
     slot: video
     video:
       path: /vid/kirby-copilot-image-context.mp4
@@ -27,16 +31,16 @@ sections:
     class: "dark:bg-gradient-to-b from-gray-900 to-gray-950/50 dark:lg:bg-none dark:lg:bg-gray-950/50"
     cards:
       - title: User & System Prompt
-        description: Instruct the AI with a user prompt and shape the response format with the system prompt.
+        description: Instruct the AI with a user prompt. Response formatting is handled by the default system prompt.
         icon: i-ri-edit-box-line
-        to: /docs/getting-started
+        to: /docs/configuration/system-prompt
         class: col-span-7 row-span-3
         type: prompt
         orientation: horizontal
       - title: Fields as Context
         description: Context is key for a meaningful AI response. Include content from other fields to provide more information.
         icon: i-ri-braces-line
-        to: /docs/context/fields
+        to: /docs/usage/placeholders
         image:
           path: /img/seo-placeholders
           width: 444
@@ -51,7 +55,7 @@ sections:
         orientation: horizontal
       - title: Process Images & PDFs
         description: Add images and let GPT vision extract key information from them, or extract text from PDF files for your prompt.
-        to: /docs/context/files
+        to: /docs/usage/files
         icon: i-ri-chat-new-line
         image:
           path: /img/gpt-vision
@@ -60,7 +64,7 @@ sections:
         class: "col-span-5 row-span-5 lg:-mt-10 lg:mb-20"
         orientation: vertical
       - title: Blocks, Writer & Text Fields
-        description: Yes, you can generate whole blocks. Tell the AI to segment the generated text into headings and paragraphs.
+        description: Generate blocks, text, and even writer fields directly in the Panel with the new toolbar buttons.
         icon: i-ri-dashboard-line
         to: /playground
         type: generate
@@ -90,11 +94,10 @@ sections:
         link: https://github.com/johannschopplich/kirby-algolia-docsearch
 cta:
   title: Don't Take<br class="md:hidden"> Our Word for It
-  description: Try Kirby Copilot in the interactive Panel playground.
+  description: Install the plugin and experience AI in the Panel yourself.
   links:
-    - label: Playground
-      to: /playground
-      icon: i-ri-arrow-right-line
+    - label: Try for Free
+      to: /docs/getting-started/installation
+      icon: i-ri-download-line
       size: xl
-      color: black
-      trailing: true
+      color: primary
