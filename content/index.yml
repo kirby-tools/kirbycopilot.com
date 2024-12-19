@@ -16,7 +16,7 @@ hero:
       icon: i-ri-arrow-right-line
       trailing: true
 sections:
-  - title: Prompt Dialog for<br> <span class="text-primary">Selected Text</span>
+  - title: Toolbar Buttons for<br> <span class="text-primary">Selected Text</span>
     slot: video
     video:
       path: /vid/kirby-copilot-writer-prompt-dialog.mp4
