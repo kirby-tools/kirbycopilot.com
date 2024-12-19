@@ -17,7 +17,7 @@ plan:
     color: primary
     to: https://byjohann.lemonsqueezy.com/checkout/buy/ce8a5fd2-8a01-4972-9a5d-e9dbbca17acf
   features:
-    - For Kirby 4 & 5 (to be released)
+    - For Kirby 4 & Kirby 5
     - Unlimited sites
     - Unlimited minor & patch updates
 faq:
@@ -29,7 +29,7 @@ faq:
     - label: Do I need an OpenAI API key?
       content: If you want to use GPT models then yes, you need a key for the [OpenAI API](https://platform.openai.com) allowing Kirby Copilot request text completions from it. If you want to use Anthropic Claude or Mistral models instead, you will need an API key for the respective provider.
     - label: Which Kirby versions are supported?
-      content: Kirby Copilot is compatible with Kirby 4 as of late 2024. Once Kirby 5 is released, the plugin will be updated to support it. The license you purchase is already valid for Kirby 5.
+      content: Kirby Copilot is compatible with Kirby 4 and Kirby 5.
     - label: What does “Unlimited minor & patch updates” include?
       content: We add new features and improvements to Kirby Copilot as we get ideas and feedback. You will receive these updates for the major version you have purchased. When a new major version is released, you will be able to upgrade to that version at a generous discount. A typical major version is intended to be released alongside a new major Kirby version.
     - label: How do I receive updates for the plugin?
