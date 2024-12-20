@@ -8,7 +8,7 @@ hero:
 # discount:
 #   label: 20% off for early birds
 plan:
-  title: All in One
+  title: Copilot v2
   description: For individuals and teams.
   price: $99
   highlight: true
