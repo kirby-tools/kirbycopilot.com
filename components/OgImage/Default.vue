@@ -13,12 +13,12 @@ defineProps<{
 <template>
   <div class="flex h-full w-full flex-col justify-center bg-[#311d53]">
     <svg
-      class="absolute right-[-320px] top-[-20px]"
+      xmlns="http://www.w3.org/2000/svg"
       width="1200"
       height="675"
       viewBox="0 0 1200 675"
       fill="none"
-      xmlns="http://www.w3.org/2000/svg"
+      class="absolute right-[-320px] top-[20px] h-[90%] object-contain"
     >
       <line
         x1="4.15258e-07"
