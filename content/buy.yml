@@ -9,7 +9,7 @@ hero:
 #   label: 20% off for early birds
 plan:
   title: Copilot v2
-  description: For individuals and teams.
+  description: For solo-developers and agencies
   price: $99
   highlight: true
   button:
